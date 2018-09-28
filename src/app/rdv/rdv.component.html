@@ -1,0 +1,17 @@
+<form name="my_form" action="#result" method="post">
+    <label>Id Rendez-Vous</label> : <input [(ngModel)]="id_rdv" placeholder="id_rdv" /> <br>
+    <label>Texte Random</label> : <input [(ngModel)]="text_random" placeholder="text_random"  /> <br>
+  
+    <label>Date début</label> : <input [(ngModel)]="debut" placeholder="debut"  /><br>
+    <label>Date fin</label> : <input [(ngModel)]="fin" placeholder="fin" /> <br>
+  
+    <label>Id Patient</label> : <input [(ngModel)]="id_patient" placeholder="id_patient" /> <br>
+    <label>Nom Patient</label> : <input [(ngModel)]="nom_patient" placeholder="nom_patient"  /><br>
+    <label>Id Medecin</label> : <input [(ngModel)]="id_medecin" placeholder="id_medecin" /> <br>
+    <label>Nom Medecin</label> : <input [(ngModel)]="nom_medecin" placeholder="nom_medecin"  /><br>
+    <label>Id Lieu</label> : <input [(ngModel)]="id_lieu" placeholder="id_lieu"  /><br>
+    <label>Nom Lieu</label> : <input [(ngModel)]="nom_lieu" placeholder="nom_lieu" /><br>
+
+    <button onclick="newAppointment()">Prendre rendez-vous</button><br>
+    
+</form>
